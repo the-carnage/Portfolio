@@ -1,5 +1,7 @@
 import './About.css'
 
+import pp2 from '../assets/pp2.png'
+
 const About = () => {
     return (
         <section className="about section" id="about">
@@ -9,12 +11,7 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-image-wrapper">
                         <div className="about-image">
-                            <div className="image-placeholder">
-                                <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.4">
-                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                                    <circle cx="12" cy="7" r="4"></circle>
-                                </svg>
-                            </div>
+                            <img src={pp2} alt="Mehebub Alom" className="about-profile-img" />
                             <div className="image-decoration"></div>
                         </div>
                     </div>
@@ -42,26 +39,7 @@ const About = () => {
                         <div className="education-section">
                             <h3 className="education-heading">Education</h3>
 
-                            <div className="about-education glass-card">
-                                <div className="education-icon">
-                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                        <path d="M12 15l-2 5l-9-9l9-9l9 9l-9 9l-5 2l2-5"></path>
-                                    </svg>
-                                </div>
-                                <div className="education-details">
-                                    <h4>Nasa Space App Finalist <span className="education-school">NASA ( <a href="#" style={{ color: 'inherit', textDecoration: 'underline' }}>Link</a> )</span></h4>
-                                    <div className="education-meta">
-                                        <span className="education-year">October 2025</span>
-                                        <span className="education-separator">•</span>
-                                        <span className="education-cgpa">Finalist</span>
-                                    </div>
-                                    <ul className="education-description" style={{ listStyleType: 'disc', paddingLeft: '20px', marginTop: '10px', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                                        <li>Led AI development for a 6-member team to build an LLM assistant with 3+ analytical modules.</li>
-                                        <li>Applied prediction and visualization tools for analysis of 50+ simulated exoplanet systems.</li>
-                                        <li>Integrated machine learning pipelines evaluated against 200+ international teams.</li>
-                                    </ul>
-                                </div>
-                            </div>
+
 
                             <div className="about-education glass-card">
                                 <div className="education-icon">
