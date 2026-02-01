@@ -61,16 +61,22 @@ const Contact = () => {
 
     const certifications = [
         {
+            title: 'Nasa Space App Finalist',
+            issuer: 'NASA',
+            date: 'October 2025',
+            description: (
+                <ul style={{ listStyleType: 'disc', paddingLeft: '15px', margin: '5px 0 0 0' }}>
+                    <li>Led AI development for a 6-member team to build an LLM assistant with 3+ analytical modules.</li>
+                    <li>Applied prediction and visualization tools for analysis of 50+ simulated exoplanet systems.</li>
+                    <li>Integrated machine learning pipelines evaluated against 200+ international teams.</li>
+                </ul>
+            )
+        },
+        {
             title: 'Adobe India Hackathon',
             issuer: 'Adobe India',
             date: 'August 2025',
             description: 'Earned certificate for successful participation in Unstop competition. Demonstrated analytical thinking and practical reasoning skills.'
-        },
-        {
-            title: 'DSA Mock Interview',
-            issuer: 'Newton School of Technology',
-            date: 'December 2024',
-            description: 'Demonstrated strong problem-solving and algorithmic thinking. Validated interview-ready coding and solution explanation skills.'
         }
     ]
 

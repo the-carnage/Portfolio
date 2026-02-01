@@ -49,13 +49,17 @@ const About = () => {
                                     </svg>
                                 </div>
                                 <div className="education-details">
-                                    <h4>NASA Finalist Certificate</h4>
-                                    <p className="education-school">NASA Space Apps Challenge</p>
+                                    <h4>Nasa Space App Finalist <span className="education-school">NASA ( <a href="#" style={{ color: 'inherit', textDecoration: 'underline' }}>Link</a> )</span></h4>
                                     <div className="education-meta">
-                                        <span className="education-year">2024</span>
+                                        <span className="education-year">October 2025</span>
                                         <span className="education-separator">•</span>
                                         <span className="education-cgpa">Finalist</span>
                                     </div>
+                                    <ul className="education-description" style={{ listStyleType: 'disc', paddingLeft: '20px', marginTop: '10px', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
+                                        <li>Led AI development for a 6-member team to build an LLM assistant with 3+ analytical modules.</li>
+                                        <li>Applied prediction and visualization tools for analysis of 50+ simulated exoplanet systems.</li>
+                                        <li>Integrated machine learning pipelines evaluated against 200+ international teams.</li>
+                                    </ul>
                                 </div>
                             </div>
 
