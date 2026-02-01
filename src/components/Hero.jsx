@@ -80,12 +80,21 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className="scroll-indicator">
-                    <div className="mouse">
-                        <div className="wheel"></div>
-                    </div>
-                    <span>Scroll to explore</span>
+                <div className="scroll-arrow" style={{
+                    position: 'absolute',
+                    bottom: '30px',
+                    left: '50%',
+                    transform: 'translateX(-50%)',
+                    animation: 'scrollBounce 2s infinite',
+                    cursor: 'pointer',
+                    color: 'var(--text-muted)'
+                }} onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}>
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+                    </svg>
                 </div>
+
+
             </div>
         </section>
     )
