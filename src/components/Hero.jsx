@@ -1,4 +1,5 @@
 import './Hero.css'
+import profilePic from '../assets/profilepic.png'
 
 const Hero = () => {
     return (
@@ -20,6 +21,10 @@ const Hero = () => {
 
             <div className="container hero-container">
                 <div className="hero-content">
+                    <div className="hero-profile-container">
+                        <img src={profilePic} alt="Mehebub Alom" className="hero-profile-pic" />
+                    </div>
+
                     <div className="hero-badge">
                         <span className="badge-dot"></span>
                         Available for opportunities
@@ -30,7 +35,7 @@ const Hero = () => {
                     </h1>
 
                     <h2 className="hero-subtitle">
-                        Full Stack Developer & AI/ML Enthusiast
+                        Full Stack Developer & AI/ML Specialized
                     </h2>
 
                     <p className="hero-description">
@@ -46,11 +51,15 @@ const Hero = () => {
                             </svg>
                             View Projects
                         </a>
-                        <a href="#contact" className="btn btn-secondary">
+                        <a href="/Resume.pdf" download="Mehebub_Alom_Resume" className="btn btn-secondary">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                <polyline points="22,6 12,13 2,6"></polyline>
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
                             </svg>
+                            Download Resume
+                        </a>
+                        <a href="#contact" className="btn btn-outline">
                             Contact Me
                         </a>
                     </div>

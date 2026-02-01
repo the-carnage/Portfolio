@@ -45,6 +45,23 @@ const About = () => {
                             <div className="about-education glass-card">
                                 <div className="education-icon">
                                     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                        <path d="M12 15l-2 5l-9-9l9-9l9 9l-9 9l-5 2l2-5"></path>
+                                    </svg>
+                                </div>
+                                <div className="education-details">
+                                    <h4>NASA Finalist Certificate</h4>
+                                    <p className="education-school">NASA Space Apps Challenge</p>
+                                    <div className="education-meta">
+                                        <span className="education-year">2024</span>
+                                        <span className="education-separator">•</span>
+                                        <span className="education-cgpa">Finalist</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="about-education glass-card">
+                                <div className="education-icon">
+                                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                                         <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
                                         <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
                                     </svg>
@@ -54,8 +71,6 @@ const About = () => {
                                     <p className="education-school">Newton School of Technology (ADYPU), Pune</p>
                                     <div className="education-meta">
                                         <span className="education-year">2024 – 2028</span>
-                                        <span className="education-separator">•</span>
-                                        <span className="education-cgpa">Grade: 8.2/10</span>
                                     </div>
                                 </div>
                             </div>
@@ -72,8 +87,6 @@ const About = () => {
                                     <p className="education-school">School of Basic Science</p>
                                     <div className="education-meta">
                                         <span className="education-year">2022 – 2023</span>
-                                        <span className="education-separator">•</span>
-                                        <span className="education-cgpa">Grade: 70.0%</span>
                                     </div>
                                 </div>
                             </div>
@@ -90,8 +103,6 @@ const About = () => {
                                     <p className="education-school">The Phoenix Academy</p>
                                     <div className="education-meta">
                                         <span className="education-year">2020 – 2021</span>
-                                        <span className="education-separator">•</span>
-                                        <span className="education-cgpa">Grade: 71.17%</span>
                                     </div>
                                 </div>
                             </div>
