@@ -7,8 +7,8 @@ const Projects = () => {
             subtitle: 'AI Document Summarizer',
             description: 'Intelligent document summarization tool capable of summarizing text, documents, and images with user-controlled output length. Implemented a Transformer-based NLP pipeline using fine-tuned T5-Small model with interactive Streamlit interface.',
             tech: ['Python', 'T5-Small', 'Hugging Face', 'Streamlit', 'Transformers'],
-            github: 'https://github.com/the-carnage/Docurizzer',
-            demo: 'https://huggingface.co/spaces/the-carnage/Docurizzer',
+            github: 'https://huggingface.co/the-carnage/docrizer/tree/main',
+            demo: 'https://huggingface.co/spaces/the-carnage/docurizer',
             date: 'December 2025',
             featured: true,
             gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'
@@ -19,7 +19,7 @@ const Projects = () => {
             description: 'Multi-language online compiler capable of compiling and executing Python, C++, and JavaScript code with custom runtime input. Designed a backend execution engine using child processes with responsive frontend for real-time output.',
             tech: ['React', 'Node.js', 'Express.js', 'Vite', 'Child Processes'],
             github: 'https://github.com/the-carnage/OnlineCompiler',
-            demo: '#',
+            demo: 'https://onlinecompiler-z9ve.onrender.com/',
             date: 'December 2025',
             featured: true,
             gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'
@@ -30,7 +30,7 @@ const Projects = () => {
             description: 'Full-stack mobile diary application that allows users to write, read, and manage their daily life entries securely. Developed RESTful APIs for data management with persistent storage and cross-platform mobile interface.',
             tech: ['React Native', 'Express.js', 'SQL', 'REST APIs', 'JWT'],
             github: 'https://github.com/the-carnage/Rozz',
-            demo: '#',
+            demo: 'https://drive.google.com/drive/folders/1BBXfVt_qhtCrUi914BvJgDhoQ6rqGda0',
             date: 'October 2025',
             featured: true,
             gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
@@ -61,7 +61,7 @@ const Projects = () => {
             description: 'Plant tracking and management application for garden enthusiasts with growth tracking, watering schedules, and plant care recommendations.',
             tech: ['JavaScript', 'React', 'Node.js', 'MongoDB'],
             github: 'https://github.com/the-carnage/PlantVerse',
-            demo: '#',
+            demo: 'https://plant-verse.vercel.app/',
             date: '2025',
             gradient: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)'
         }
